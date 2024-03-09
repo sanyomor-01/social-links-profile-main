@@ -12,7 +12,7 @@ h1, div, p, article, main{
 }
 .desktop{
     width: 90rem;
-    height: 50rem;
+    height: 60rem;
     display: grid;
     place-items: center;
     background: hsl(0, 0%, 8%);
