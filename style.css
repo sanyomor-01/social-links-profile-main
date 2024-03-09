@@ -11,7 +11,8 @@ h1, div, p, article, main{
     margin: 0;
 }
 .desktop{
-    min-height: 100vh;
+    width: 90rem;
+    height: 50rem;
     display: grid;
     place-items: center;
     background: hsl(0, 0%, 8%);
@@ -65,6 +66,41 @@ h1, div, p, article, main{
 .role{
     margin-top: 1.5rem;
     width: 100%;
+    text-align: center;
     font-size: 0.875rem;
     font-weight: 400;
+}
+/* Socials*/
+.social-links {
+    margin-top: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.125rem ;
+    list-style: none;
+}
+.social-links li{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social-links li a {
+    background:hsl(0, 0%, 20%);
+    width: 18.625rem;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.social-links li  a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ .social-links li a:hover{
+    cursor:pointer;
+    color:hsl(0, 0%, 12%) ;
+    background: hsl(75, 94%, 57%);
+    border-radius: 8px;
 }
