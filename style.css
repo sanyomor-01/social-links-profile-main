@@ -43,6 +43,9 @@ h1, div, p, article, main{
     height: 5.85rem;
     border-radius: 4.375rem;
     border: 0.05rem solid var(--blue-100, #DBE9FE);
+    object-fit:cover;
+
+
 }
 /* demography styles*/
 .demography{
@@ -92,7 +95,7 @@ h1, div, p, article, main{
     padding-bottom: 14px;
     border-radius: 8px;
     font-size: 0.875rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 .social-links li  a{
     text-decoration: none;
@@ -103,4 +106,51 @@ h1, div, p, article, main{
     color:hsl(0, 0%, 12%) ;
     background: hsl(75, 94%, 57%);
     border-radius: 8px;
+}
+@media screen and (max-width:500px)
+ { 
+    .desktop{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .container {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        width: 20.5rem;
+      }
+      .social-links li {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      .demography h1{
+        font-size: 20px;
+      }
+      .demography p{
+        font-size: 13px;
+      }
+      .profile{
+        width:5.635rem;
+        height: 5.625rem;
+        border-radius: 50%;
+        border: 0.07rem solid #DBE9FE;
+      }
+      .profile img {
+        width: 5.22rem;
+        height: 5.22rem;
+        border-radius: 4.375rem;
+        border: 0.05rem solid var(--blue-100, #DBE9FE);
+      }
+      .role{
+        margin-top: 1rem;
+      }
+      .social-links li a{
+        font-size: 0.87rem;
+      }
+ 
 }
