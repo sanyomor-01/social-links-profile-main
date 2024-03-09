@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution URL](https://github.com/sanyomor-01/social-links-profile-main)
-- Live Site URL: [live site URL ](https://https://social-links-profile-main-pi-rosy.vercel.app/)
+- Live Site URL: [live site URL ](https://social-links-profile-main-pi-rosy.vercel.app)
 
 ## My process
 - Redesign component on figma to get accurate layout measurements
