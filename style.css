@@ -62,7 +62,7 @@ h1, div, p, article, main{
     font-family: "Inter";
 }
 .demography p{
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 600;
     color: hsl(75, 94%, 57%);
 }
@@ -132,7 +132,7 @@ h1, div, p, article, main{
         font-size: 20px;
       }
       .demography p{
-        font-size: 13px;
+        font-size: 0.875rem;
       }
       .profile{
         width:5.635rem;
@@ -150,7 +150,7 @@ h1, div, p, article, main{
         margin-top: 1rem;
       }
       .social-links li a{
-        font-size: 0.87rem;
+        font-size: 0.875rem;
       }
  
 }
